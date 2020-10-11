@@ -1,0 +1,34 @@
+/* Body */
+
+.logo {
+
+
+}
+
+.main-title {
+
+    margin-top: 125px;
+
+}
+
+
+.body {
+
+    background-color: #cbcbcb;
+
+}
+
+
+
+/* Footer */
+
+.index-footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #2E2F30;
+    align-content: center;
+
+}
