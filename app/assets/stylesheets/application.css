@@ -1,13 +1,38 @@
+/* NavigationBar */
+.nav-item a {
+
+    color: #2E2F30;
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+
+}
+
+.nav-item a:hover {
+
+    color: floralwhite;
+    text-decoration: none;
+
+}
+
+
 /* Body */
 
 .logo {
 
+    font-size: 35px;
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Pacifico', cursive;
+    margin-left: 20px;
 
 }
 
 .main-title {
 
     margin-top: 125px;
+    font-family: 'Varela Round', sans-serif;
 
 }
 
