@@ -4,4 +4,7 @@ Rails.application.routes.draw do
   root 'posts#index', as: 'home'
 
   # Additional Pages
+  get 'about' => 'pages#about', as: 'about'
+  
+
 end
