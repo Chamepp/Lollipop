@@ -35,6 +35,16 @@
     <link href="cover.css" rel="stylesheet">
 
 
+    <!-- Fonts Sources -->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+
+
+
+
+
     <!-- Bootstrap Style -->
     <style>
         .bd-placeholder-img {
@@ -66,12 +76,16 @@
 
     <header class="masthead mb-auto">
       <div class="inner">
-        <h3 class="masthead-brand text-justify logo">Blogger</h3>
+        <h3 class="masthead-brand text-justify logo">Lollipop</h3>
+
         <nav class="nav nav-masthead justify-content-center navbar-static-top">
-          <a class="nav-link active" href="#Home">Home</a>
-          <a class="nav-link" href="#Features">Features</a>
-          <a class="nav-link" href="#Contact">Contact</a>
+          <div class="nav-item">
+            <%= link_to "Home", home_path %>
+            <%= link_to "Post", new_post_path %>
+            <%= link_to "About", about_path %>
+          </div>
         </nav>
+
       </div>
     </header>
 
