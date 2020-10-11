@@ -1,11 +1,14 @@
 class PostsController < ApplicationController
 
-  # Home Index
+  # Home Posts
   def index
 
     @title = 'Index'
 
   end
 
+  # New Post
+  def new
 
+  end
 end
