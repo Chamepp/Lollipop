@@ -78,3 +78,94 @@
     margin-left: 30px;
 
 }
+
+
+
+
+
+
+
+/* New Post */
+
+.instruct {
+
+    color: #2E2F30;
+    font-family: 'Pacifico', cursive;
+    font-size: 5vh;
+}
+
+.form-alignment {
+
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.card {
+
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px;
+    min-height: 500px;
+    border-radius: 15px;
+    background-color: #2E2F30;
+
+}
+
+/* Action One */
+
+.title-label {
+
+    margin-top: 20px;
+    margin-right: 450px;
+    color: floralwhite;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.title-field {
+
+    margin-top: 5px;
+    max-width: 500px;
+    background-color: floralwhite;
+
+}
+
+.title-field:hover {
+
+    border-color: #2E2F30;
+    border-inline-color: #2E2F30;
+
+}
+
+
+/* Action Two */
+
+.body-label {
+
+    margin-top: 20px;
+    margin-right: 450px;
+    color: floralwhite;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+
+}
+
+.body-field {
+
+    margin-top: 5px;
+    max-width: 500px;
+    min-height: 200px;
+    background-color: floralwhite;
+
+}
+
+.body-field:hover {
+
+    border-color: #2E2F30;
+    border-inline-color: #2E2F30;
+
+}
