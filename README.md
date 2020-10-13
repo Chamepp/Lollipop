@@ -1,7 +1,7 @@
 ![Header](Lollipop.png)
 # Lollipop
 [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) <br>
-Lollipop Posting and Content Blogging Rails Application
+Lollipop Posting and Content Blogging Rails Application <br>
 A Lollipop For Bloggers ...
 
 # Material
