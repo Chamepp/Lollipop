@@ -2,7 +2,7 @@ class PagesController < ApplicationController
 
   # AboutUs Page
   def about
-    @content = 'We are Cool !!!'
+    @content = "    "
   end
 
 end
