@@ -7,6 +7,16 @@ A Lollipop For Bloggers ...
 # Material
 ![Body](LollipopEnv.png)
 
+| Materials | Detail | Description |
+| ---------- | ----------- | ----------- |
+| Bycrypt | Version 3.4 | Bycrypt Gem For Hashing and Encrypting Database Passwords. |
+| Google Fonts | Link Tags | Embed Links to Main Source Including Pacifico, Roboto and Bangers.  |
+| Scss | Style Variables | Used For Decreasing The Confusion for Color Managment and Other Stuffs. |
+| Css | Version 3 | Main Used Language For Styling Lollipop Contents. |
+| Html | Version 5 | For Contenting Lollipop |
+| SQLite | Version 3 | SQLite Database Managment For Handeling and Storing Posts Contents. |
+
+
 # License
 Copyright 2019 Ashkan Ebtekari
 
