@@ -1,11 +1,19 @@
 /* NavigationBar */
+
+.nav {
+
+    margin-left: 180px;
+
+}
+
 .nav-item a {
 
     color: #2E2F30;
     font-family: 'Comfortaa', cursive;
     font-size: 20px;
     text-decoration: none;
-    margin: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 
 }
 
@@ -15,6 +23,7 @@
     text-decoration: none;
 
 }
+
 
 
 /* Body */
@@ -33,6 +42,45 @@
 
     margin-top: 125px;
     font-family: 'Varela Round', sans-serif;
+
+}
+
+.signup-button {
+
+    float: right;
+    margin-right: 10px;
+    background-color: #2E2F30;
+    color: white;
+    border-color: #2E2F30;
+    border-inline-color: #2E2F30;
+
+}
+
+.signup-button:hover {
+
+    background-color: floralwhite;
+    color: #2E2F30;
+    border-color: #2E2F30;
+
+}
+
+.login-button {
+
+    float: right;
+    margin-right: 10px;
+    background-color: floralwhite;
+    border-color: #2E2F30;
+    color: #2E2F30;
+    border-inline-width: 5px;
+    border-width: 2px;
+
+}
+
+.login-button:hover {
+
+    background-color: #2E2F30;
+    color: white;
+    border-color: #2E2F30;
 
 }
 
