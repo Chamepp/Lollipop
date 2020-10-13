@@ -71,20 +71,36 @@
   <body class="body">
 
 
-  <div class="text-center">
   <!-- Navigation Bar -->
+  <div class="text-center">
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
     <header class="masthead mb-auto">
       <div class="inner">
+
+        <div>
+        <!-- Logo-->
         <h3 class="masthead-brand text-justify logo">Lollipop</h3>
 
+          <!-- SignUp & Login Buttons -->
+          <%= link_to "SignUp", home_path, :class => 'btn btn-primary signup-button' %>
+          <%= link_to "Login", home_path, :class => 'btn btn-primary login-button' %>
+
+        </div>
+
+        <!-- NavItems -->
         <nav class="nav nav-masthead justify-content-center navbar-static-top">
+
+
           <div class="nav-item">
+
             <%= link_to "Home", home_path %>
             <%= link_to "Post", showall_path %>
             <%= link_to "About", about_path %>
+
           </div>
+
+
         </nav>
 
       </div>
