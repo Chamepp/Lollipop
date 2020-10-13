@@ -1,6 +1,9 @@
 ![Header](Lollipop.png)
 # Lollipop
 [![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+### Lollipop Posting and Content Blogging Rails Application
+### A Lollipop For Bloggers ...
+![Body](LollipopEnv.png)
 
 # License
 Copyright 2019 Ashkan Ebtekari
