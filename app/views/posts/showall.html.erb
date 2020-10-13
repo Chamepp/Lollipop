@@ -1,5 +1,18 @@
-<h1>Created Posts</h1>
+<!-- Instruction -->
+<br> <br> <br>
+<h1 class="create-title text-center">Created Posts</h1>
+
+<!-- Post Card -->
 <% @post.each do |post| %>
-    <h2> <%= post.title %> </h2>
-    <p> <%= post.body %> </p>
+  <div class="card card-show">
+
+    <div class="card-body">
+      <h5 class="card-title-show"> <%= post.title %> </h5>
+      <h6 class="card-subtitle-show mb-2 text-muted">Genre</h6>
+      <p class="card-text-show"> <%= post.body %> </p>
+      <%= link_to "Read More", post_path(@post), :class => 'btn btn-primary read-more' %>
+    </div>
+
+  </div>
 <% end %>
+
