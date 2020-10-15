@@ -6,8 +6,8 @@ Rails.application.routes.draw do
   # Additional Pages
   get 'showall' => 'posts#showall', as: 'showall'
   get 'about' => 'pages#about', as: 'about'
-  get 'signup' => 'user#signup', as: 'signup'
-  post 'users' => 'users#makeuser'
+  get 'signup' => 'pages#signup', as: 'signup'
+  post 'users' => 'pages#makeuser', as: 'users'
 
   # Resources
   resources :posts
