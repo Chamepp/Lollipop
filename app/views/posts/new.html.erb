@@ -9,6 +9,15 @@
 <div class="card text-center card-new">
   <div>
 
+  <!-- Error Handling -->
+    <%= if @post.errors.any? %>
+      <%= @post.errors.full_message.each do |msg| %>
+
+      <div class="alert alert-danger"> <%= msg %> </div>
+
+      <% end %>
+    <% end %>
+
   <!-- First Action -->
     <p>
       <%= f.label :title, :class => 'title-label'%> <br>
