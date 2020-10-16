@@ -5,38 +5,44 @@
 
 
 <!-- SignUp Form -->
-<%= form_for :user, url: signup_path do |f| %>
+<%= form_tag home_path, method: :post do |f| %>
 
   <div class="card text-center card-new">
 
 
     <!-- First Action -->
     <p>
-      <%= f.label :firstname, :class => 'title-label' %> <br>
-      <%= f.text_field :firstname, :class => 'form-control title-field form-alignment' %> <br>
+      <%= label_tag :firstname, :class => 'title-label' %> <br>
+      <%= text_field_tag :firstname, :class => 'form-control title-field form-alignment' %> <br>
     </p>
 
     <!-- Second Action -->
     <p>
-      <%= f.label :lastname, :class => 'title-label' %> <br>
-      <%= f.text_field :lastname, :class => 'form-control title-field form-alignment' %> <br>
+      <%= label_tag :lastname, :class => 'title-label' %> <br>
+      <%= text_field_tag :lastname, :class => 'form-control title-field form-alignment' %> <br>
     </p>
 
     <!-- Third Action -->
     <p>
-      <%= f.label :email, :class => 'title-label' %> <br>
-      <%= f.text_field :email, :class => 'form-control title-field form-alignment' %> <br>
+      <%= label_tag :email, :class => 'title-label' %> <br>
+      <%= text_field_tag :email, :class => 'form-control title-field form-alignment' %> <br>
     </p>
 
     <!-- Fourth Action -->
     <p>
-      <%= f.label :password, :class => 'title-label' %>
-      <%= f.password_field :password, :class => 'form-control title-field form-alignment' %>
+      <%= label_tag :password, :class => 'title-label' %>
+      <%= password_field_tag :password, :class => 'form-control title-field form-alignment' %>
+    </p>
+
+    <!-- Sixth Action -->
+    <p>
+      <%= label_tag :password_confirmation, :class => 'title-label' %>
+      <%= password_field_tag :password_confirmation, :class => 'form-control title-field form-alignment' %>
     </p>
 
     <!-- Finalization -->
     <p>
-      <%= f.submit "Jump", :class => 'btn btn-primary' %> <br>
+      <%= submit_tag "Jump", :class => 'btn btn-primary' %> <br>
     </p>
 
 
