@@ -17,7 +17,7 @@ class PostsController < ApplicationController
 
   # New Post
   def new
-
+    @post = Post.new
   end
 
 
@@ -25,8 +25,13 @@ class PostsController < ApplicationController
   def create
 
     @post = Post.new(post_params)
-    @post.save
-    redirect_to @post
+
+    # Err Handeling
+    if @post.save
+      redirect_to @post
+
+      else
+      render :new
 
   end
 
@@ -39,3 +44,5 @@ class PostsController < ApplicationController
 
 
 end
+
+  end
