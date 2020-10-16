@@ -50,7 +50,7 @@
       <h5 class="card-title-show"> <%= post.title %> </h5>
       <h6 class="card-subtitle-show mb-2 text-muted">Genre</h6>
       <p class="card-text-show"> <%= post.body %> </p>
-      <%= link_to "Read More", post_path(@post), :class => 'btn btn-primary read-more' %>
+      <%= link_to "Read More", post_path(post), :class => 'btn btn-primary read-more' %>
     </div>
 
   </div>
