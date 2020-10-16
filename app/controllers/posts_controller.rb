@@ -26,7 +26,7 @@ class PostsController < ApplicationController
 
     @post = Post.new(post_params)
 
-    # Err Handeling
+    # Err Handling
     if @post.save
       redirect_to @post
 
@@ -34,8 +34,28 @@ class PostsController < ApplicationController
     render :new
 
     end
-
     end
+
+
+  # Edit Post
+  def edit
+    @post = Post.find(params[:id])
+  end
+
+  # Update Post
+  def update
+    @post = Post.find(params[:id])
+
+    # Err Handling
+    if @post.update(post_params)
+      redirect_to @post
+
+    else
+      render :edit
+    end
+
+  end
+
 
   # Private Params
   private def post_params
