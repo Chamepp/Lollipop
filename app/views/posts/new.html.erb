@@ -10,8 +10,8 @@
   <div>
 
   <!-- Error Handling -->
-    <%= if @post.errors.any? %>
-      <%= @post.errors.full_message.each do |msg| %>
+    <% if @post.errors.any? %>
+      <% @post.errors.full_messages.each do |msg| %>
 
       <div class="alert alert-danger"> <%= msg %> </div>
 
