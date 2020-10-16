@@ -1,4 +1,13 @@
-<h1> <%= @post.title %> </h1>
-<p> <%= @post.body %> </p>
-<%= link_to "Edit", edit_post_path(@post), :class => 'btn btn-primary' %>
-<%= link_to "Delete", post_path, method: :delete, data: {confirm: "Are You Sure You Want To \n Delete This Post ?!"} , :class => 'btn btn-danger' %>
+<div class="card card-show postshow-card">
+
+  <div class="card-title-show">
+    <h1 class="instruct text-center postshow-title"> <%= @post.title %> </h1>
+  </div>
+
+  <div class="card-text-show">
+    <p class="text-center postshow-content"> <%= @post.body %> </p>
+    <%= link_to "Edit", edit_post_path(@post), :class => 'btn btn-primary postshow-buttons' %>
+    <%= link_to "Delete", post_path, method: :delete, data: {confirm: "Are You Sure You Want To \n Delete This Post ?!"} , :class => 'btn btn-danger postshow-buttons' %>
+  </div>
+
+</div>
