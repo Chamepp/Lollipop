@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get 'showall' => 'posts#showall', as: 'showall'
   get 'about' => 'pages#about', as: 'about'
   get 'signup' => 'pages#signup', as: 'signup'
-  post 'users' => 'pages#makeuser', as: 'users'
+  post 'users' => 'pages#users', as: 'users'
 
   # Resources
   resources :posts
