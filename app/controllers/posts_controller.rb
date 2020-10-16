@@ -30,10 +30,12 @@ class PostsController < ApplicationController
     if @post.save
       redirect_to @post
 
-      else
-      render :new
+    else
+    render :new
 
-  end
+    end
+
+    end
 
   # Private Params
   private def post_params
@@ -42,7 +44,5 @@ class PostsController < ApplicationController
 
   end
 
-
-end
-
   end
+
