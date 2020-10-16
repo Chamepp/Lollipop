@@ -271,8 +271,6 @@
 }
 
 
-
-
 /* About Content */
 
 .about-content {
@@ -280,5 +278,40 @@
     margin-top: 100px;
     font-family: 'Comfortaa', cursive;
 
+
+}
+
+
+
+
+/* Show Post Page */
+
+.postshow-title {
+
+    color: #2E2F30;
+    font-family: 'Pacifico', cursive;
+    font-size: 5vh;
+    margin-top: 60px;
+
+}
+
+.postshow-content {
+
+    color: #2E2F30;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2vh;
+    margin-top: 60px;
+
+}
+
+.postshow-buttons {
+
+    margin-top: 100px;
+
+}
+
+.postshow-card {
+
+    margin-top: 200px;
 
 }
