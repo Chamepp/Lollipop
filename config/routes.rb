@@ -10,6 +10,8 @@ Rails.application.routes.draw do
   post 'users' => 'pages#users', as: 'users'
 
   # Resources
-  resources :posts
+  resources :posts do
+    resources :comments
+  end
 
 end
