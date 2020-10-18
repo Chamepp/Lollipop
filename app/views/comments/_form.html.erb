@@ -1,0 +1,21 @@
+<h4>Add Comments</h4>
+<%= form_for([@post, @post.comments.build]) do |f| %>
+
+  <!-- First Action -->
+  <p>
+    <%= f.label :username %> <br>
+    <%= f.text_field :username, :class => 'form-control' %>
+  </p>
+
+  <!-- Second Action -->
+  <p>
+    <%= f.label :body %>
+    <%= f.text_area :body, :class => 'form-control' %>
+  </p>
+
+  <!-- Finalization -->
+  <p>
+    <%= f.submit :class => 'btn btn-primary' %>
+  </p>
+
+<% end %>
