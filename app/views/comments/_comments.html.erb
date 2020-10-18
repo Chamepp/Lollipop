@@ -9,6 +9,7 @@
       </strong>
       <%= comment.body %>
     </p>
+    <%= link_to 'X', [comment.post, comment], method: :delete, :class => 'btn btn-danger', data: {confirm: "Are You Sure You \n Want To Delete This Comment ?!"} %>
   </div>
 
 <% end %>
