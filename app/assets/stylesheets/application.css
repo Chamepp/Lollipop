@@ -315,3 +315,42 @@
     margin-top: 200px;
 
 }
+
+
+
+/* Comments Design */
+
+.comments-card-title-show {
+
+    margin-left: 5px;
+
+}
+
+.comments-card-text-show {
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.comments-card-show {
+
+    margin-left: 30px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    min-height: 50px;
+    background-color: #cdcdcd;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+
+.comments-instruct {
+
+    margin-top: 180px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: #2E2F30;
+    font-family: 'Pacifico', cursive;
+    font-size: 3vh;
+
+}
