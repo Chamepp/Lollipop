@@ -1,15 +1,20 @@
 <!-- Comments Section -->
-<h3>Comments</h3>
+<h3 class="comments-instruct">Comments</h3>
 <% @post.comments.each do |comment| %>
 
-  <div>
+  <div class="card comments-card-show comments-card">
     <p>
-      <strong>
+      <strong class="comments-card-title-show">
         <%= comment.username %>
       </strong>
-      <%= comment.body %>
+
+      <i class="comments-card-text-show">
+        <%= comment.body %>
+      </i>
+
+        <%= link_to 'X', [comment.post, comment], method: :delete, :class => 'btn btn-danger', data: {confirm: "Are You Sure You \n Want To Delete This Comment ?!"} %>
+
     </p>
-    <%= link_to 'X', [comment.post, comment], method: :delete, :class => 'btn btn-danger', data: {confirm: "Are You Sure You \n Want To Delete This Comment ?!"} %>
   </div>
 
 <% end %>
