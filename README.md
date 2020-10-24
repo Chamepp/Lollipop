@@ -1,6 +1,13 @@
 ![Header](Lollipop.png)
 # Lollipop
-[![Open Source Love](https://badges.frapsoft.com/os/v3/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) <br>
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Percentage of issues still open](http://isitmaintained.com/badge/open/Naereen/badges.svg)](http://isitmaintained.com/project/Naereen/badges "Percentage of issues still open")
+[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
+[![made-with-ruby](https://img.shields.io/badge/Made%20with-Ruby-1f425f.svg)](https://www.gnu.org/software/ruby/)
+
+<br>
+<br>
+
 Lollipop Posting and Content Blogging Rails Application <br>
 A Lollipop For Bloggers ...
 
