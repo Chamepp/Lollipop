@@ -7,9 +7,9 @@
 
 <br>
 <br>
-
-Lollipop Posting and Content Blogging Rails Application <br>
-A Lollipop For Bloggers ...
+**Lollipop** is a *Royal Pickup* For Having Your Status More Updated and <br>
+Focused By *Posting and Blogging* Developed With **Ruby on Rails**. <br>
+**A Nice Provider** For Blogging *Latest Status* For Your Domain Or Even Public Domains...
 
 # Material
 ![Body](LollipopEnv.png) <br> <br>
