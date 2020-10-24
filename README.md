@@ -7,18 +7,12 @@
 
 <br>
 <br>
-**Lollipop** is a *Royal Pickup* For Having Your Status More Updated and <br>
-Focused By *Posting and Blogging* Developed With **Ruby on Rails**. <br>
-**A Nice Provider** For Blogging *Latest Status* For Your Domain Or Even Public Domains...
+**Lollipop** is a *Royal Pickup* For Having Your Status More Updated and<br>
+Focused By *Posting and Blogging* Developed With **Ruby on Rails**.<br>
+**A Nice Provider** For Blogging *Latest Status* For Your Domain Or Even Public Domains.
 
 # Material
 ![Body](LollipopEnv.png) <br> <br>
-
-
-Lollipop Posting and Content Blogging Rails Application <br>
-Post Managment and Weblogging With <br>
-Admin Abilities and SignUp Enrollment <br>
-A Lollipop For Bloggers ... <br> <br>
 
 
 | Materials | Detail | Description |
