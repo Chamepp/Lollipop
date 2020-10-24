@@ -5,8 +5,6 @@
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)
 [![made-with-ruby](https://img.shields.io/badge/Made%20with-Ruby-1f425f.svg)](https://www.gnu.org/software/ruby/)
 
-<br>
-<br>
 **Lollipop** is a *Royal Pickup* For Having Your Status More Updated and<br>
 Focused By *Posting and Blogging* Developed With **Ruby on Rails**.<br>
 **A Nice Provider** For Blogging *Latest Status* For Your Domain Or Even Public Domains.
